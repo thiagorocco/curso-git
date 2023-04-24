@@ -6,7 +6,7 @@ myNumber = 0
 acertar = False
 while acertar==False:
     tentativas+=1
-    myNumber = int(input('Tente adivinhar um número entre 1 e 10: '))
+    myNumber = int(input('Tente adivinhar um número entre 01 e 10: '))
     if myNumber == n:
         if tentativas == 1:
             print('Parabéns você acertou na primeira tentativa!!!')
